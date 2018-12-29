@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favOption"
+        android:title="Favourites" />
+
+    <item
+        android:id="@+id/sleepTimer"
+        android:title="Sleep Timer" />
+
+    <item
+        android:id="@+id/detailsOption"
+        android:title="Details" />
+
+    <item
+        android:id="@+id/shareOption"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/search_Option"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search Menu"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always">
+
+    </item>
+
+
+</menu>

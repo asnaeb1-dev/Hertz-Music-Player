@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favOptionSongList"
+        android:title="Favourites" />
+
+
+    <item
+        android:id="@+id/settingsOption"
+        android:title="Settings"
+        android:iconTint="@android:color/white"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="About"/>
+
+    <item
+        android:id="@+id/delete"
+        android:title="Delete"
+        android:iconTint="@android:color/white"/>
+
+    <item
+        android:id="@+id/search_Option_listscreen"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search Menu"
+        android:iconTint="@android:color/white"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always">
+
+    </item>
+</menu>

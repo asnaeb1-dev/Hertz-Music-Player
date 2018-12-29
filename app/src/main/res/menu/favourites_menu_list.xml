@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/playSongMenuItem"
+        android:title="Play" />
+
+    <item
+        android:id="@+id/addToQueue"
+        android:title="Add to queue" />
+
+    <item
+        android:id="@+id/removeFromFav"
+        android:title="Remove" />
+
+    <item
+        android:id="@+id/details1Favs"
+        android:title="Details" />
+
+    <item
+        android:id="@+id/addTo_playlistX"
+        android:title="Add to playlist" />
+
+    <item
+        android:id="@+id/shareFavs"
+        android:title="Share" />
+
+</menu>
